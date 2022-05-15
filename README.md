@@ -7,6 +7,7 @@ Using ESP32 to fetch current time from the server and display the same on the OL
 
 ## Reference
 https://circuitdigest.com/microcontroller-projects/esp32-internet-clock
+
 For I2C OLED: https://arduinogetstarted.com/tutorials/arduino-oled
 
 ## Components used
@@ -18,6 +19,7 @@ Connect ESP32 to NTP(network time protocol) and UDP(user datagram protocol) to f
 
 ## Code
 Here offset is 19800 sec, because Indian Standard Time is 5hr 30 mins ahead of GMT. And, interval is for how often it should receive a new value, here it is 60 seconds.
+
 https://github.com/meghana-23-7/Internet-clock-using-ESP32/blob/main/sketch_task2.ino
 
 ## Problems faced
