@@ -18,7 +18,7 @@ Connect ESP32 to NTP(network time protocol) and UDP(user datagram protocol) to f
 
 ## Code
 Here offset is 19800 sec, because Indian Standard Time is 5hr 30 mins ahead of GMT. And, interval is for how often it should receive a new value, here it is 60 seconds.
-
+https://github.com/meghana-23-7/Internet-clock-using-ESP32/blob/main/sketch_task2.ino
 
 ## Problems faced
 The clock is printing the wrong time. Every time it starts from around 5:30 only.  We are not sure about the error, but I think it is receiving wrong input from the server, or worse it isn’t receiving any input, hence every time it starts from 5:30, by logic of 19800 sec we provided while defining NTP_OFFSET in the code. I’m still working on this.
